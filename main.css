@@ -1,3 +1,126 @@
 body {
-    background: #ff00ff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #C4E3CB;
+}
+
+.container {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    height: 600px;
+    margin: 150px auto;
+    transform: translate(-50%,-50%);
+}
+
+.face_one {
+    width: 150px;
+    height: 150px;
+    background-color: #2EDF85;
+    border-radius: 150px 0px 0px 0px;
+}
+
+.face_two {
+    position: absolute;
+    top: 0px;
+    transform: rotate(90deg);
+    left: 150px;
+    width: 150px;
+    height: 150px;
+    background-color: #2EDF85;
+    border-radius: 150px 0 0 0;
+}
+
+.left_ear {
+    position: absolute;
+    left: -5px;
+    top: 20px;
+    transform: rotate(55deg);
+    width: 60px;
+    height: 25px;
+    background-color: #2EDF85;
+    border-radius: 50px 0 0 50px;
+}
+
+.right_ear {
+    position: absolute;
+    left: 240px;
+    top: 20px;
+    transform: rotate(127deg);
+    width: 60px;
+    height: 25px;
+    background-color: #2EDF85;
+    border-radius: 50px 0 0 50px;
+}
+
+.left_eye {
+    position: absolute;
+    width: 30px;
+    top: 90px;
+    left: 60px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.right_eye {
+    position: absolute;
+    width: 30px;
+    top: 90px;
+    left: 200px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #fff;
+}
+
+.left_hand {
+    position: relative;
+    top: 10px;
+    width: 60px;
+    height: 230px;
+    left: -75px;
+    border-radius: 50px /50px;
+    background-color: #2EDF85;
+
+}
+
+.body {
+    position: relative;
+    top: -215px;
+    width: 300px;
+    height: 260px;
+    left: 0;
+    border-radius: 0 0 50px 50px;
+    background-color: #2EDF85;
+}
+
+.right_hand {
+    position: absolute;
+    top: 165px;
+    width: 60px;
+    height: 230px;
+    left: 315px;
+    border-radius: 50px/50px;
+    background-color: #2EDF85;
+}
+
+.left_foot {
+    position: relative;
+    top: -225px;
+    left: 55px;
+    width: 55px;
+    height: 115px;
+    border-radius: 0 0 50px 50px;
+    background-color: #2EDF85;
+}
+
+.right_foot {
+    position: relative;
+    top: -338px;
+    left: 195px;
+    width: 55px;
+    height: 115px;
+    border-radius: 0 0 50px 50px;
+    background-color: #2EDF85;
 }
